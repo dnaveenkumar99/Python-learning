@@ -1,0 +1,9 @@
+str1="Nithi"
+str2="Nischi"
+str3="Nithi"
+str4="nischi"
+str5="Shruthi"
+print(id(str1))
+print(id(str3))
+print(id(str4))
+print(id(str2))

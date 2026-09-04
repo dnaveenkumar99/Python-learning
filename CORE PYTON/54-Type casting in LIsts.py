@@ -1,0 +1,6 @@
+L=list((10,20,30))
+print(L)
+L1=list(range(10))
+print(L1)
+L2=(range(10,18))
+print(L2)

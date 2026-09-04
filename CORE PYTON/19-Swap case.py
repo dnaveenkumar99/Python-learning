@@ -1,0 +1,8 @@
+str=input("Enter a string")
+print(str)
+str1=str.upper()
+print(str1)
+str2=str.lower()
+print(str2)
+str3=str.lower()
+print(str3)

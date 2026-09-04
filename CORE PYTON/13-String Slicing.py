@@ -1,0 +1,11 @@
+str="RajaRamMohanRoy"
+print(len(str))
+print(str[11])
+print(str[3:11])
+print(str[1:10])
+print(str[-2:-7])
+print(str[-11:13])
+print(str[::2])
+print(str[::])
+print(str[::-1])
+print(str[2:8:0])

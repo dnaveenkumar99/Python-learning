@@ -1,4 +1,4 @@
-1)Program to find the sum of the digits
+#Program to find the sum of the digits
 def sum_indi(n):
     sum=0
     while n>0:
@@ -9,7 +9,7 @@ def sum_indi(n):
 n=int(input("Enter a number:"))
 print(sum_indi(n))
 
-2)Program to multiply each digit of a number
+#Program to multiply each digit of a number
 def product(n):
     prod=1
     while n>0:
@@ -21,7 +21,7 @@ n=int(input("Enter a number:"))
 print(product(n))
 
 
-3)Program to reverse a number
+#Program to reverse a number
 def rev(n):
     rev=0
     while n>0:
@@ -31,3 +31,14 @@ def rev(n):
     return rev
 n=int(input("Enter a number:"))
 print(rev(n))
+
+#Program to find the length of a number
+def count(n):
+    count=0
+    while n>0:
+        if n>0:
+            count+=1
+        n=n//10
+    return count
+n=int(input("Enter a number:"))
+print(count(n))

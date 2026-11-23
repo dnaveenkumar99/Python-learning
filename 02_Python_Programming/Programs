@@ -1,0 +1,33 @@
+1)Program to find the sum of the digits
+def sum_indi(n):
+    sum=0
+    while n>0:
+        ld=n%10
+        sum=sum+ld
+        n=n//10
+    return sum
+n=int(input("Enter a number:"))
+print(sum_indi(n))
+
+2)Program to multiply each digit of a number
+def product(n):
+    prod=1
+    while n>0:
+        ld=n%10
+        prod=prod*ld
+        n=n//10
+    return prod
+n=int(input("Enter a number:"))
+print(product(n))
+
+
+3)Program to reverse a number
+def rev(n):
+    rev=0
+    while n>0:
+        ld=n%10
+        rev=rev*10+ld
+        n=n//10
+    return rev
+n=int(input("Enter a number:"))
+print(rev(n))

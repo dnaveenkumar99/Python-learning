@@ -19,3 +19,15 @@ def product(n):
     return prod
 n=int(input("Enter a number:"))
 print(product(n))
+
+
+3)Program to reverse a number
+def rev(n):
+    rev=0
+    while n>0:
+        ld=n%10
+        rev=rev*10+ld
+        n=n//10
+    return rev
+n=int(input("Enter a number:"))
+print(rev(n))

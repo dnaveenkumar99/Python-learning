@@ -8,3 +8,14 @@ def sum_indi(n):
     return sum
 n=int(input("Enter a number:"))
 print(sum_indi(n))
+
+2)Program to multiply each digit of a number
+def product(n):
+    prod=1
+    while n>0:
+        ld=n%10
+        prod=prod*ld
+        n=n//10
+    return prod
+n=int(input("Enter a number:"))
+print(product(n))

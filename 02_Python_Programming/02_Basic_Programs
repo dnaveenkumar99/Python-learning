@@ -42,3 +42,21 @@ def count(n):
     return count
 n=int(input("Enter a number:"))
 print(count(n))
+
+
+#Program to find if the given number is a perfect number or not
+import time
+def perfect(n):
+    sum=0
+    for i in str(n):
+        i=int(i)
+        if n%i==0:
+            sum=sum+i
+    if sum==n:
+        return "Perfect number"
+    else:
+        return "Not a perfect number"
+while True:
+    n=int(input("Enter a number:"))
+    print(perfect(n))
+    time.sleep(1)

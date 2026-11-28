@@ -199,10 +199,32 @@ for i in range(1,n+1):
     print()
 
 #Diagonal Patterns
+
+#Primary diagonal
 n=5
 for i in range(1,n+1):
     for j in range(1,n+1):
         if (i==j):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+#secondary diagonal
+n=5
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i+j==n+1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+#Bordered triangle
+n=5
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==n or j==1 or i==j:
             print("*",end=" ")
         else:
             print(" ",end=" ")
